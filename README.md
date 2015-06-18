@@ -1,6 +1,10 @@
 # alien-invasion
 Progetto Java, Informatica C, Laurea Triennale
 
+_Il progetto è estramamente didattico e ben documentato, utile per progetti Java delle lauree triennali in informatica o ingegneria informatica_
+
+_Ho deciso di renderlo pubblico molto più tardi rispetto alla sua creazione quindi ad oggi potrebbe contenere anche codice deprecato. In ogni caso, per l'utilizzo in classe/distribuzione come demo menzionare l'autore originale e questo repository_
+
 ##Introduzione al gioco
  
 Il progetto che presento è un gioco scritto in Java che simula una battaglia nello spazio tra la propria navicella e navicelle aliene.
@@ -67,8 +71,8 @@ Nello sviluppo sono state utilizzate:
 Le due soluzioni sono risultate molto utili infatti ho ottenuto:
  
 1.     Semplificazione radicale del codice
-a.     Un'unica lista contente tutti gli oggetti animati
-b.     Posso disegnare/azionare (con disegna() e azione()) tutti gli elementi con un unico ciclo, ciclando solo una variabile Animato m su cui vado ad applicare i metodi (che sono poi differenti a seconda dell’entità dell’oggetto che sto considerando)
+  a.     Un'unica lista contente tutti gli oggetti animati
+  b.     Posso disegnare/azionare (con disegna() e azione()) tutti gli elementi con un unico ciclo, ciclando solo una variabile Animato m su cui vado ad applicare i metodi (che sono poi differenti a seconda dell’entità dell’oggetto che sto considerando)
 2.     Facilità di integrazione di nuovi elementi animata elevata (basta creare una nuova classe per aggiungere nuovi tipi di alieni o proiettili)
 3.      Facilità di programmazione
  
