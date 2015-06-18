@@ -12,6 +12,7 @@ _Armi_
 * Colpo singolo
 * Doppio Colpo (SuperFire)
 * Bombe
+
 _Strumenti di difesa_
 * Scudo
  
@@ -25,51 +26,35 @@ Se la vita del giocatore si annulla si ha il Game Over, se invece il giocatore e
  
 Il programma è composto dalle seguenti classi:
  
+_Classi per il funzionamento del gioco:_
  
-Classi per il funzionamento del gioco:
- 
-·       Partita
-o   Oggetto che gestisce l'intero gioco, contiene il main e i principali metodi.
-·       Controlli
-o   Gestisce l'input da tastiera
-·       LoadImg
-o   Oggetto che gestisce il caricamento delle immagini.
-·       Stato
-o   Classe che disegna la barra di stato con le informazioni della partita.
+* Partita: Oggetto che gestisce l'intero gioco, contiene il main e i principali metodi.
+* Controlli: Gestisce l'input da tastiera
+* LoadImg: Oggetto che gestisce il caricamento delle immagini.
+* Stato: Xlasse che disegna la barra di stato con le informazioni della partita.
  
  
-Classi per il movimento delle immagini:
+_Classi per il movimento delle immagini:_
  
-·       Animato
-o   Oggetto che gestisce tutti gli elementi animati (tranne il Giocatore che è azionato dall'utente)
+* Animato: Oggetto che gestisce tutti gli elementi animati (tranne il Giocatore che è azionato dall'utente)
  
-Classi degli elementi sul campo:
+_Classi degli elementi sul campo:_
  
-·       Giocatore
-o   Classe che gestisce il giocatore, riceve gli input, si occupa di sparare, del doppio colpo, dello scudo, della vita del giocatore
+* Giocatore: Classe che gestisce il giocatore, riceve gli input, si occupa di sparare, del doppio colpo, dello scudo, della vita del giocatore
  
-·       Alieno
-o   Oggetto che disegna e gestisce il comportamento degli alieni, ereditando i metodi da Animato
+* Alieno: Oggetto che disegna e gestisce il comportamento degli alieni, ereditando i metodi da Animato
  
-Classi delle armi (ereditano comportamenti dalla classe Animato):
+_Classi delle armi (ereditano comportamenti dalla classe Animato):_
  
-·       RaggioLaser
-o   Oggetto raggio laser degli alieni
-·       Bomba
-o   Oggetto che gestisce l'arma speciale bomba
-·       Missile
-o   Oggetto dell'arma principale del giocatore
-·       SuperFire
-o   Oggetto che gestisce il doppio colpo.
+* RaggioLaser: Oggetto raggio laser degli alieni
+* Bomba: Oggetto che gestisce l'arma speciale bomba
+* SuperFire: Oggetto che gestisce il doppio colpo.
  
-Gestione dei records:
+_Gestione dei records:_
  
-·       Pannello Record
-o   La classe si occupa di disegnare il pannello per inserire i record.
-·       Punteggio
-o   Questa classe tiene in memoria il punteggio del giocatore durante la partita e viene inoltre utilizzata nel momento in cui il punteggio viene salvato su file binario, usando anche il nome del giocatore.
-·       SalvaFile
-o   Classe che fornisce i metodo di scrittura e lettura su un file binario.
+* Pannello Record: La classe si occupa di disegnare il pannello per inserire i record.
+* Punteggio: Questa classe tiene in memoria il punteggio del giocatore durante la partita e viene inoltre utilizzata nel momento in cui il punteggio viene salvato su file binario, usando anche il nome del giocatore.
+* SalvaFile: Classe che fornisce i metodo di scrittura e lettura su un file binario.
  
  
  
