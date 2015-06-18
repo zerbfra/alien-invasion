@@ -71,10 +71,10 @@ Nello sviluppo sono state utilizzate:
 Le due soluzioni sono risultate molto utili infatti ho ottenuto:
  
 1.     Semplificazione radicale del codice
-    a.     Un'unica lista contente tutti gli oggetti animati
-    b.     Posso disegnare/azionare (con disegna() e azione()) tutti gli elementi con un unico ciclo, ciclando solo una variabile Animato m su cui vado ad applicare i metodi (che sono poi differenti a seconda dell’entità dell’oggetto che sto considerando)
-2.     Facilità di integrazione di nuovi elementi animata elevata (basta creare una nuova classe per aggiungere nuovi tipi di alieni o proiettili)
-3.      Facilità di programmazione
+2.     Un'unica lista contente tutti gli oggetti animati
+3.     Posso disegnare/azionare (con disegna() e azione()) tutti gli elementi con un unico ciclo, ciclando solo una variabile Animato m su cui vado ad applicare i metodi (che sono poi differenti a seconda dell’entità dell’oggetto che sto considerando)
+4.     Facilità di integrazione di nuovi elementi animata elevata (basta creare una nuova classe per aggiungere nuovi tipi di alieni o proiettili)
+5.      Facilità di programmazione
  
 Ho creato un interfaccia (Set.java) che mi è servita per dichiarare tutte le costanti di gioco, in modo da poter modificare in futuro un qualsiasi parametro come velocità di gioco, vita del giocatore, scudi e bombe a disposizione ecc…
 L’interfaccia creata è stata necessaria anche per rendere disponibili alle altre classi metodi proprio di Partita.java come getimg(),addAnimato()….
